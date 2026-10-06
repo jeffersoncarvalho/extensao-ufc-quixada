@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f4f2;
+  color: #333;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.topo {
+  background-color: #3d4448;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.topo h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.conteudo {
+  flex: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.acao {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-left: 4px solid #8a9296;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.acao h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2b2f31;
+  margin-bottom: 0.35rem;
+}
+
+.coordenador {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.coordenador span {
+  font-weight: 600;
+  color: #555;
+}
+
+.rodape {
+  background-color: #3d4448;
+  color: #ddd;
+  text-align: center;
+  padding: 1.25rem 1rem;
+  font-size: 0.9rem;
+}
